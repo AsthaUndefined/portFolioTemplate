@@ -1,0 +1,24 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+    </mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">add_road</mat-icon>
+      </a>
+      <a mat-list-item href="#">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">show_chart</mat-icon>
+      </a>
+      <a mat-list-item href="#">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">assignment</mat-icon>
+      </a>
+      <a mat-list-item href="#">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">contact_page</mat-icon>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>

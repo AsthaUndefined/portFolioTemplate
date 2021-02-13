@@ -1,0 +1,16 @@
+.menuContainer{
+    padding-right: 1%;
+    right: 0; 
+    position: absolute;
+
+}
+.mat-tab{
+    color:black;
+    font-size: 40px;
+}
+.mat-tab-group{
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    font-weight: 900;    
+}
