@@ -1,7 +1,15 @@
 .sidenav {
-  width: 50px;
+  background-color:black;
+  width: 45px;
   margin-top: 10px;
 }
 .mat-toolbar{
-  padding: 0 12px;
+  background-color: black;
+  color:rgb(9, 240, 248);
+  height: 10%;
+  padding: 0 11px;
+}
+:host ::ng-deep .mat-list-base .mat-list-item .mat-list-item-content {
+  padding: 0 11px;
+  color:rgb(9, 240, 248);
 }
